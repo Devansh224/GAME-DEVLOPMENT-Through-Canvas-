@@ -1,0 +1,33 @@
+* {
+    margin-left: 110px;
+}
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+
+}
+.you-style {
+    width: 480px;
+    margin-left: 160px;
+}
+button {
+    background-color: red;
+    color: white;
+    box-shadow: black;
+    text-align: center;
+}
+
+#centrizing {
+    margin-left: 170px;
+}
+#minus {
+    margin-left: 60px;
+}
+
+.down {
+    margin-left: 165px;
+}
+
+#ins {
+    margin-left: 140px;
+}

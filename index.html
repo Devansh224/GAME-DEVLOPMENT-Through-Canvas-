@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save the object</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body onload="startGame()">
+    <div class="you-style">
+    <button id="centrizing" onmousedown="moveUp()" onmouseup="stopMove()">Up</button><br><br>
+    <button onmousedown="moveRight()"onmouseup="stopMove()">Right</button>
+    <button id="minus" onmousedown="moveLeft()"onmouseup="stopMove()">Left</button><br><br>
+    <button class="down" onmousedown="moveDown()"onmouseup="stopMove()">Down</button>
+    </div>
+    <br><br><br>
+    <div class="you-style" id="centrizing">
+        <button onclick="reportUsers()" id="ins">Instructions</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
